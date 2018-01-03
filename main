@@ -20,3 +20,7 @@ function syntaxHighlight(json) {
             return '<span class="' + cls + '">' + match + '</span>';
         });
 }
+
+function isNull(string){
+        return string === null ? '暂无' : string;
+}
